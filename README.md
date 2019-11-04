@@ -6,9 +6,13 @@ Download [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) and [
 put them in your project folder along with coco.names
 
 replace 
+```bash
 img = cv2.imread('Image/test1.jpeg')
+```
 with
+```
 img = cv2.imread(' --- your image path --- ')
+```
 
 
 <p align="center"><img width="100%" src="image/result.png" /></p>
